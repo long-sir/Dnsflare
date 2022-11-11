@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const AxiosClient = axios.create({
-    baseURL: 'https://dns.121100.xyz/client/v4',
+    baseURL: 'https://cf.lionlong.workers.dev/client/v4',
     timeout: 15000,
 })
 
